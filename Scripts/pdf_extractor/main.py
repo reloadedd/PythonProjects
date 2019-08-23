@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import pdftotext
 import argparse
 import sys
