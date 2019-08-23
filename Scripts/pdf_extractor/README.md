@@ -1,5 +1,5 @@
 # What's this?
-* A script to extract information from a PDF file and then compare it against another PDF file. The information is based on a column, whose index is entered as input (offset).
+* A script to extract information from a PDF file and then compare it against another PDF file. The information is based on a column (it assumes that the PDF file contains a table), whose index is entered as input (offset).
 
 # Why would you ever need this?
 * I used this to count how many contenders on an admission exam moved from waiting list to accepted list. Thus, it helped me to get an overview about the contenders "migration". The script has some level of generality, but it's purpose was particular. But I think it can be easily modified to solve similar problems. I could also do CTRL+C, CTRL+F, CTRL+V in browser for every contender in the list, or I could do this script.
