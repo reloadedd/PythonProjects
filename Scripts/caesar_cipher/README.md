@@ -33,5 +33,10 @@ optional arguments:
                         The output file to write to.
 ```
 
+## Explanation
+### What is that bruteforce thing?
+- The first option (#1) takes to ciphertext and shifts all letters. A letter is shifted so that when it reaches the last english letter _z_ (the functions handles both lowercase and uppercase), the letter is resetted which means the next shift after _z_ will be _a_, then _b_ and so on until the last permutation (25th). Symbols are treated as they are, nothing changes.
+- The second option (#2) takes the ciphertext and shifts all letters no matter what they are (assuming they are ASCII letters). When the ASCII code of a letters exceeds 255, it is resetted.
+
 ## Example
-![Caesar's Cipher Decryption Tool Example](https://imgur.com/a/mL80II2)
+![Caesar's Cipher Decryption Tool Example](https://i.imgur.com/I43Ampr.png)
