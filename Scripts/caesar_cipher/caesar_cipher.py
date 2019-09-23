@@ -46,7 +46,7 @@ def decrypt(ciphertext: str, force: int) -> None:
             print('Round no.', Fore.RESET, '{0:3}: {1}'.format(i, decoded))
 
 
-def decrypt_from_file(ciphertext: str, force: int, write_here: str) -> None:
+def decrypt_into_file(ciphertext: str, force: int, write_here: str) -> None:
     """ Caesar's Cipher decryption tool
     This one deals with the text that will be saved on a file."""
 
@@ -159,7 +159,7 @@ Required if mode is set to #2.''')
                 sys.exit(-1)
 
         if args.output != SCREEN:
-            decrypt_from_file(cipher, args.bruteforce, args.output)
+            decrypt_into_file(cipher, args.bruteforce, args.output)
         else:
             decrypt(cipher, args.bruteforce)
     except KeyboardInterrupt:
