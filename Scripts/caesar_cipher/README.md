@@ -1,6 +1,6 @@
 # Caesar's Cipher Decryption Tool for CTFs (mostly)
 ## Description
-This tool is meant to be used for CTF competitions (where else could you find Caesar's Cipher?), but don't listen to me, use it where you want! I made it to be flexible enough, depending on your situation.
+This tool is meant to be used for CTF competitions (where else could you find Caesar's Cipher?), but don't listen to me, use it where you want! I've tried to make it flexible enough and easy to work with.
 
 ## Requirements
 - *Colorama*  
