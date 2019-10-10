@@ -4,6 +4,10 @@
 # Why would you ever need this?
 * I used this to count how many contenders on an admission exam moved from waiting list to accepted list. Thus, it helped me to get an overview about the contenders "migration". The script has some level of generality, but it's purpose was particular. But I think it can be easily modified to solve similar problems. I could also do CTRL+C, CTRL+F, CTRL+V in browser for every contender in the list, or I could do this script.
 * Disclaimer: This script it's not intended to be efficient, nor the most elegant one. ***It just works***
+# Requirements
+* ```sudo apt-get update```
+* ```sudo apt-get install build-essential libpoppler-cpp-dev pkg-config python-dev```
+* ```sudo pip3 install pdftotext```
 
 # How do I use this?
 * First, you need to install it's sole dependency, [pdftotext](https://github.com/jalan/pdftotext) (Installation instructions are there).  
